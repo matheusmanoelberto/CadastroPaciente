@@ -1,0 +1,4 @@
+Criar migrations
+
+dotnet ef migrations add XXXX -o ./Infrastructure/Migrations
+dotnet ef database update
