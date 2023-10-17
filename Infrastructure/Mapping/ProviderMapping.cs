@@ -6,7 +6,7 @@ public class ProviderMapping
 {
     public void Configure(EntityTypeBuilder<Domain.Entities.ProviderEntity> builder)
     {
-        builder.ToTable("providers");
+        builder.ToTable("fornecedor");
 
         builder.HasKey(prop => prop.Id);
         builder.Property(prop => prop.Name).HasColumnType("varchar(120)");
